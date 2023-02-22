@@ -1,0 +1,18 @@
+{
+  "name": "punkbid-sample",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "enterBid": "node src/enterBid.js",
+    "monitorBids": "node src/monitorBids.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@punk.bid/merkle": "^0.0.1",
+    "@punk.bid/sdk": "^0.0.2",
+    "ethers": "^5.4.7"
+  }
+}
