@@ -31,7 +31,7 @@ const wallet = new ethers.Wallet(process.env.MY_PRIVATE_KEY, provider);
 const contract = new ethers.Contract(PUNKBIDV1_ADDRESS, PUNKBIDV1_ABI, wallet);
 
 const txResponse = await contract.enterBid(
-  // bid amount of WETH (in wei)
+  // bid amount of WETH
   utils.parseEther("0.1"),
 
   // expiration date, here in 24 hours

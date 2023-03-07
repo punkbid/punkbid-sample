@@ -15,17 +15,17 @@ const contract = new ethers.Contract(
 const handleNewBid = (
   bidId,
   bidder,
-  expiration,
   amount,
-  name,
+  expiration,
   checksum,
+  name,
   metadata
 ) => {
   console.log("New bid entered", {
     bidId,
     bidder,
     expiration,
-    amount: amount,
+    amount,
     name,
     checksum,
     metadata,
